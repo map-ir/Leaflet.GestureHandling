@@ -38,8 +38,8 @@ Include the *css* and *js* files after `leaflet.js`.
 Or load this directly from [jsDelivr](https://www.jsdelivr.com):
 
 ```html
-<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/map-ir/leaflet-gesture-handling/dist/leaflet-gesture-handling.min.css" type="text/css">
-<script src="//cdn.jsdelivr.net/gh/map-ir/leaflet-gesture-handling/dist/leaflet-gesture-handling.min.js"></script>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/map-ir/Leaflet.GestureHandling/dist/leaflet-gesture-handling.min.css" type="text/css">
+<script src="//cdn.jsdelivr.net/gh/map-ir/Leaflet.GestureHandling/dist/leaflet-gesture-handling.min.js"></script>
 ```
 
 Then, add **gestureHandling: true** in your map initialization options.
