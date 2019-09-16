@@ -52,7 +52,7 @@ var map = L.map("map", {
 });
 ```
 
-To pass in options use the property: `gestureHandlingOptions:
+To pass in options use the property: `gestureHandlingOptions`:
 
 ## options
 
@@ -71,7 +71,7 @@ var map = L.map("map", {
 });
 ```
 
-also if you wish to override this, you can set your own text by supplying `gestureHandlingOptions and a `text` option as shown below. You must specify text for `touch`, `scroll` and `scrollMac`.
+also if you wish to override this, you can set your own text by supplying `gestureHandlingOptions` and a `text` option as shown below. You must specify text for `touch`, `scroll` and `scrollMac`.
 
 ```js
 var map = L.map("map", {
