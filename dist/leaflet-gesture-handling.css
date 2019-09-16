@@ -10,7 +10,7 @@
   100% {
     opacity: 1; } }
 
-.leaflet-container:after {
+.mapp-container .leaflet-container:after {
   -webkit-animation: leaflet-gestures-fadein 0.8s backwards;
           animation: leaflet-gestures-fadein 0.8s backwards;
   color: #fff;
@@ -34,6 +34,11 @@
   background: rgba(0, 0, 0, 0.5);
   z-index: 461;
   pointer-events: none; }
+
+.mapp-container[data-locale="fa"] .leaflet-container:after {
+  direction: rtl !important;
+  text-align: right;
+  font-family: MappIranSans; }
 
 .leaflet-gesture-handling-touch-warning:after,
 .leaflet-gesture-handling-scroll-warning:after {
